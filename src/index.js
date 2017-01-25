@@ -5,10 +5,11 @@ import ReactDOM from 'react-dom';
 // import Toggle from './Toggle';
 import { Greeting } from './Greeting'
 import LoginControl from './LoginControl';
+import TodoApp from './TodoApp/TodoApp';
 import './index.css';
 
 
 ReactDOM.render(
-    <LoginControl />,
+    <TodoApp />,
     document.getElementById('root')
 );
